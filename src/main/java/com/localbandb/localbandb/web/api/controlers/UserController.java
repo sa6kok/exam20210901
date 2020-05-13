@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-//@RequestMapping("/user")
+@RequestMapping("/user")
 public class UserController extends BaseController {
     private final UserService userService;
     private final AuthenticationManager authenticationManager;
