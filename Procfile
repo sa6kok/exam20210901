@@ -1,1 +1,1 @@
-web: java -jar target/local-b-and-b-1.0.0.jar
+web: java -jar target/localbandb-1.0.0.jar
