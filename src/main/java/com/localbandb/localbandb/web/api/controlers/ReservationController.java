@@ -9,10 +9,11 @@ import com.localbandb.localbandb.web.api.models.ReservationViewModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
+import static com.localbandb.localbandb.web.api.constants.Constants.MY_URL;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = MY_URL, maxAge = 3600)
 @RestController
 @RequestMapping("/reservation")
 public class ReservationController extends BaseController {

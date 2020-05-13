@@ -4,8 +4,9 @@ import com.localbandb.localbandb.services.services.ReviewService;
 import com.localbandb.localbandb.web.api.models.ReviewCreateModel;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
+import static com.localbandb.localbandb.web.api.constants.Constants.MY_URL;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = MY_URL, maxAge = 3600)
 @RestController
 @RequestMapping("/review")
 public class ReviewController extends BaseController {

@@ -6,6 +6,7 @@ import com.localbandb.localbandb.services.services.UserService;
 import com.localbandb.localbandb.web.api.models.CityAddModel;
 import com.localbandb.localbandb.web.api.models.CountryAddModel;
 import com.localbandb.localbandb.web.api.models.UserViewModel;
+import com.localbandb.localbandb.web.api.constants.*;
 import javassist.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
@@ -13,8 +14,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+import static com.localbandb.localbandb.web.api.constants.Constants.MY_URL;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+
+@CrossOrigin(origins = MY_URL, maxAge = 3600)
 @RestController
 @RequestMapping("/admin")
 public class AdminController extends BaseController {

@@ -1,18 +1,18 @@
 package com.localbandb.localbandb.web.api.controlers;
 
-import com.localbandb.localbandb.services.services.CountryService;
 import com.localbandb.localbandb.services.services.PropertyService;
 import com.localbandb.localbandb.web.api.models.PictureAddModel;
 import com.localbandb.localbandb.web.api.models.PropertyCreateModel;
 import com.localbandb.localbandb.web.api.models.PropertyViewModel;
 import javassist.NotFoundException;
+import static com.localbandb.localbandb.web.api.constants.Constants.MY_URL;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = MY_URL, maxAge = 3600)
 @RestController
 @RequestMapping("/property")
 public class PropertyController extends BaseController {
