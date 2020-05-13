@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="efed832c-ee11-48f1-b0c4-c27cad995c28" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/localbandb/localbandb/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/localbandb/localbandb/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/localbandb/localbandb/web/api/controlers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/localbandb/localbandb/web/api/controlers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="d9902vd9ag79q3@ec2-54-246-90-10.eu-west-1.compute.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="d9902vd9ag79q3@ec2-54-246-90-10.eu-west-1.compute.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="d9902vd9ag79q3@ec2-54-246-90-10.eu-west-1.compute.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="d9902vd9ag79q3: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="d9902vd9ag79q3@ec2-54-246-90-10.eu-west-1.compute.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="d9902vd9ag79q3: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="d9902vd9ag79q3@ec2-54-246-90-10.eu-west-1.compute.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="d9902vd9ag79q3: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="EndpointsView">
+    <option name="showFromOpenedProjects" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bpGJ0IrVaf2QoBaCREDe97wxu7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="LocalBAndBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="local-b-and-b" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.localbandb.localbandb.LocalBAndBApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efed832c-ee11-48f1-b0c4-c27cad995c28" name="Default Changelist" comment="" />
+      <created>1589321545811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589321545811</updated>
+      <workItem from="1589321547460" duration="14015000" />
+      <workItem from="1589372764539" duration="15065000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589326150312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589326150312" />
+    <state x="499" y="224" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589399954074">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="532" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1589332471136" />
+    <state x="499" y="224" key="#com.intellij.fileTypes.FileTypeChooser/1440.0.1536.832/0.0.1440.860@0.0.1440.860" timestamp="1589399954074" />
+    <state width="1397" height="227" key="GridCell.Tab.0.bottom" timestamp="1589377863414">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589335677046" />
+    <state width="1397" height="227" key="GridCell.Tab.0.bottom/1440.0.1536.832/0.0.1440.860@0.0.1440.860" timestamp="1589377863414" />
+    <state width="1397" height="227" key="GridCell.Tab.0.center" timestamp="1589377863414">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589335677046" />
+    <state width="1397" height="227" key="GridCell.Tab.0.center/1440.0.1536.832/0.0.1440.860@0.0.1440.860" timestamp="1589377863414" />
+    <state width="1397" height="227" key="GridCell.Tab.0.left" timestamp="1589377863413">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589335677045" />
+    <state width="1397" height="227" key="GridCell.Tab.0.left/1440.0.1536.832/0.0.1440.860@0.0.1440.860" timestamp="1589377863413" />
+    <state width="1397" height="227" key="GridCell.Tab.0.right" timestamp="1589377863414">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589335677046" />
+    <state width="1397" height="227" key="GridCell.Tab.0.right/1440.0.1536.832/0.0.1440.860@0.0.1440.860" timestamp="1589377863414" />
+    <state width="1397" height="227" key="GridCell.Tab.1.bottom" timestamp="1589377863414">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589335677046" />
+    <state width="1397" height="227" key="GridCell.Tab.1.bottom/1440.0.1536.832/0.0.1440.860@0.0.1440.860" timestamp="1589377863414" />
+    <state width="1397" height="227" key="GridCell.Tab.1.center" timestamp="1589377863414">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589335677046" />
+    <state width="1397" height="227" key="GridCell.Tab.1.center/1440.0.1536.832/0.0.1440.860@0.0.1440.860" timestamp="1589377863414" />
+    <state width="1397" height="227" key="GridCell.Tab.1.left" timestamp="1589377863414">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589335677046" />
+    <state width="1397" height="227" key="GridCell.Tab.1.left/1440.0.1536.832/0.0.1440.860@0.0.1440.860" timestamp="1589377863414" />
+    <state width="1397" height="227" key="GridCell.Tab.1.right" timestamp="1589377863414">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589335677046" />
+    <state width="1397" height="227" key="GridCell.Tab.1.right/1440.0.1536.832/0.0.1440.860@0.0.1440.860" timestamp="1589377863414" />
+    <state width="249" height="457" key="HiddenNamespacesPopup" timestamp="1589329303014">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="249" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1589329303014" />
+    <state x="635" y="158" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1589325273490">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="635" y="158" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.824@0.0.1536.824" timestamp="1589325273490" />
+    <state x="416" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1589372774043">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="416" y="253" key="com.intellij.ide.util.TipDialog/1440.0.1536.832/0.0.1440.860@0.0.1440.860" timestamp="1589372774043" />
+  </component>
+</project>
