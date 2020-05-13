@@ -35,8 +35,7 @@ public class AdminController extends BaseController {
        return userService.findAllUsersWithoutTheLoggedIn();
     }
 
-    @GetMapping("/users")
-    @Secured("ROLE_ADMIN")
+    @GetMapping("/hi")
     public String check() {
         return "It works";
     }
