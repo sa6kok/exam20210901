@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/user")
+//@RequestMapping("/user")
 public class UserController extends BaseController {
     private final UserService userService;
     private final AuthenticationManager authenticationManager;
@@ -34,7 +34,7 @@ public class UserController extends BaseController {
         this.jwtUtils = jwtUtils;
     }
 
-    @GetMapping("/hi")
+    @GetMapping("/")
     public String check() {
         return "It works";
     }
