@@ -35,6 +35,11 @@ public class AdminController extends BaseController {
        return userService.findAllUsersWithoutTheLoggedIn();
     }
 
+    @GetMapping("/users")
+    @Secured("ROLE_ADMIN")
+    public String check() {
+        return "It works";
+    }
     @GetMapping("/status/{id}")
     @Secured("ROLE_ADMIN")
     public boolean statusChange(@PathVariable String id) throws NotFoundException {
