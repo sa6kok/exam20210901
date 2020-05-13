@@ -1,1 +1,1 @@
-web: java -jar target/local-b-and-b-1.0.0-SNAPSHOT.war
+web: java -jar target/local-b-and-b-1.0.0.jar
