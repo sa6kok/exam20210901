@@ -1,1 +1,1 @@
-web: java -jar target/local-b-and-b-1.0.0.war
+web: java -Dserver.port=8080 -jar target/local-b-and-b-1.0.0.war
