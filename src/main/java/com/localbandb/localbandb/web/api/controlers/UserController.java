@@ -35,6 +35,11 @@ public class UserController extends BaseController {
         this.jwtUtils = jwtUtils;
     }
 
+    @GetMapping("/hi")
+    public String check() {
+        return "It works";
+    }
+
     @GetMapping("/check/username/{username}")
     public boolean checkUsername(@PathVariable String username ) {
       return userService.checkIfUserExist(username);
