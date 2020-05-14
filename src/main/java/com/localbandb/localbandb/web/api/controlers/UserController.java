@@ -1,6 +1,8 @@
 package com.localbandb.localbandb.web.api.controlers;
 
+import com.localbandb.localbandb.data.models.Role;
 import com.localbandb.localbandb.data.models.User;
+import com.localbandb.localbandb.data.repositories.RoleRepository;
 import com.localbandb.localbandb.payload.JwtResponse;
 import com.localbandb.localbandb.security.jwt.JwtUtils;
 import com.localbandb.localbandb.services.services.UserService;
@@ -26,14 +28,16 @@ public class UserController extends BaseController {
     private final UserService userService;
     private final AuthenticationManager authenticationManager;
     private final JwtUtils jwtUtils;
+    private final RoleRepository roleRepository;
 
 
 
     @Autowired
-    public UserController(UserService userService, AuthenticationManager authenticationManager, JwtUtils jwtUtils) {
+    public UserController(UserService userService, AuthenticationManager authenticationManager, JwtUtils jwtUtils, RoleRepository roleRepository) {
         this.userService = userService;
         this.authenticationManager = authenticationManager;
         this.jwtUtils = jwtUtils;
+        this.roleRepository = roleRepository;
     }
 
     @GetMapping("/")

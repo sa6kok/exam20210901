@@ -33,9 +33,10 @@ public class AdminController extends BaseController {
     }
 
     @GetMapping("/users")
-    @Secured("ROLE_ADMIN")
+   // @Secured("ROLE_ADMIN")
     public List<UserViewModel> home() {
-       return userService.findAllUsersWithoutTheLoggedIn();
+
+        return userService.findAllUsersWithoutTheLoggedIn();
     }
 
 

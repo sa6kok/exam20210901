@@ -18,14 +18,15 @@ public class RoleServiceImpl implements RoleService {
   }
 
   @Override
-  @PreAuthorize("permitAll")
+ // @PreAuthorize("permitAll")
   public Role findByAuthority(String authority) {
-    return roleRepository.findByAuthority(authority);
+    Role byAuthority = roleRepository.findByAuthority(authority);
+    return byAuthority;
   }
 
 
   @Override
-  @PreAuthorize("permitAll")
+ // @PreAuthorize("permitAll")
   public Set<Role> findAll() {
     return new HashSet<>(roleRepository.findAll());
   }
