@@ -14,7 +14,8 @@ public class Constants {
     public final static String SHOULD_BE_AT_LEAST_SYMBOLS =  "should be at least 4 symbols!";
     public final static String IS_NOT_VALID =  " is not valid!";
     public final static String SHOULD_BE_AT_LEAST_18 =  " should be at least 18 years old!";
-    public final static String MY_URL = "https://angular-local-bnb.herokuapp.com";
+   // public final static String MY_URL = "https://angular-local-bnb.herokuapp.com";
+    public final static String MY_URL = "http://localhost:4200";
 
 
 

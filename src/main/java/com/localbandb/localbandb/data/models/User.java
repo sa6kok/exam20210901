@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Set;
 
 @Entity
+@Table(name = "users")
 public class User extends BaseEntity implements UserDetails {
 
   @Size(min = 3, max = 25)
@@ -36,7 +37,7 @@ public class User extends BaseEntity implements UserDetails {
 
   @Min(18)
   @Column(name = "age", nullable = false)
-  private String age;
+  private Integer age;
 
   @OneToMany(targetEntity = Property.class, mappedBy = "host", cascade = CascadeType.ALL)
   @JsonBackReference
@@ -101,11 +102,11 @@ public class User extends BaseEntity implements UserDetails {
     this.lastName = lastName;
   }
 
-  public String getAge() {
+  public Integer getAge() {
     return age;
   }
 
-  public void setAge(String age) {
+  public void setAge(Integer age) {
     this.age = age;
   }
 
