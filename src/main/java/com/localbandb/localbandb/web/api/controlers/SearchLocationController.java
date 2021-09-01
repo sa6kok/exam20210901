@@ -41,9 +41,17 @@ public class SearchLocationController extends BaseController {
     }
 
     @GetMapping("/check/{city}")
-    public boolean checkIfProperties(@PathVariable String city) {
-        List<PropertyViewModel> allByCity = propertyService.getAllByCity(city);
-        return allByCity.size() == 0;
+    public int checkIfProperties(@PathVariable String city) {
+       /* List<PropertyViewModel> allByCity = propertyService.getAllByCity(city);
+        return allByCity.size() == 0;*/
+
+        int count = 0;
+        for (int i = 0;  i < city.length(); i++) {
+            if (Character.isDigit(city.charAt(i))) {
+                count++;
+            }
+        }
+       return count;
 
     }
 
