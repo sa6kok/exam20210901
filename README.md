@@ -1,3 +1,2 @@
-# Java-Web-SoftUni-Final-Project
-In progress...
-Defence - 15.12.2019.
+Exam 01.09.2021
+
